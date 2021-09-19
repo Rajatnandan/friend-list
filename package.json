@@ -1,4 +1,5 @@
 {
+  "homepage": "http://rajatnandan.github.io/friendslist",
   "name": "haptik-assignment",
   "version": "0.1.0",
   "private": true,
@@ -16,9 +17,13 @@
     "@fortawesome/free-regular-svg-icons": "5.12.0",
     "fa-icons": "0.1.9",
     "react-fontawesome": "1.7.1",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "gh-pages": "^2.0.1"
+    
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
