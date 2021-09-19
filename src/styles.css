@@ -1,0 +1,78 @@
+.App {
+  font-family: sans-serif;
+  margin-top: 100px;
+  padding-left: 35%;
+  border-collapse: collapse;
+}
+input {
+  width: 385px;
+  height: 30px;
+  padding-left: 10px;
+}
+.topHeader {
+  border: 1px solid black;
+  width: 390px;
+  padding-left: 10px;
+  font-weight: bolder;
+  background-color: #6377f7;
+}
+.allButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 410px;
+  margin-top: 15px;
+}
+button {
+  background-color: white;
+  height: 30px;
+  border-radius: 3px;
+  margin-right: 10px;
+  background-color: #01b684;
+  color: white;
+  border: 1px solid white;
+  padding: 0px 15px 0px 15px;
+  cursor: pointer;
+}
+.topHeaderTag {
+  font-size: 16px;
+  color: #f2f2f2;
+}
+.modal {
+  margin-top: -150px;
+}
+.delete_confirm {
+  font-size: 15px;
+}
+
+/* Modal Body */
+.modal-body {
+  padding: 22px;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  background-color: #dddddd;
+  width: 50%;
+  height: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}

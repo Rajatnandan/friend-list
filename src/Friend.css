@@ -1,0 +1,28 @@
+.friend {
+  border: 1px solid black;
+  width: 398px;
+  display: flex;
+  border-collapse: collapse;
+  flex-direction: row;
+}
+p {
+  font-size: 13px;
+  line-height: 5px;
+}
+.friendName {
+  font-weight: bolder;
+}
+.friend_name_div {
+  text-align: left;
+  margin-left: 10px;
+  width: 60%;
+}
+.friend_fav_delete {
+  width: 40%;
+  display: flex;
+}
+.friend_fav_delete_icon {
+  margin-left: 30%;
+  margin-top: 15px;
+  cursor: pointer;
+}
